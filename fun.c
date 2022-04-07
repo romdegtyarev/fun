@@ -3,7 +3,7 @@
 #include    <time.h>
 
 
-int _DEBUG_    0;
+int _DEBUG_ = 0;
 
 
 typedef enum bool_t {
@@ -17,7 +17,6 @@ typedef enum color_T {
     RED,
     BROWN,
     BLACK,
-    RED,
     UNKNOWN_COLOR
 } color;
 
@@ -66,7 +65,7 @@ int update_rom_status(just_girl *person, bool *is_rom_in_love) {
     if (_DEBUG_) {
         printf("No: %d %d %d\n",
                person->eyes_color,
-               person->is_she_programmer
+               person->is_she_programmer,
                person->is_she_like_activity);
     }
     return 0;
