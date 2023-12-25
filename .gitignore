@@ -3,3 +3,7 @@
 
 /fun.o
 /fun
+
+/.cproject
+.settings
+
